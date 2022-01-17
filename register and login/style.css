@@ -1,0 +1,162 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Raleway', sans-serif;
+
+}
+
+#btn{
+    padding: 20px 50px;
+    font-size: 2rem;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px black solid;
+    background-color: cyan;
+    color: #222;
+    display: none;
+
+
+}
+#btn:hover{
+    background-color: rgb(197, 252, 252);
+}
+
+#btn-div{
+width: 100vw;
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+.container{
+    background: linear-gradient(#AEDCDA, #889fd3);
+    width: 400px;
+    height: 650px;
+    border: black solid 1px;
+    border-radius: 15px;
+    box-shadow: black 10px 10px 40px 5px;
+    position: relative;
+}
+.welcome{
+    text-align: center;
+    margin-top: 30px;
+    width: 100%;
+    height: 100px;
+    color: black;
+    text-shadow: black 5px 5px 30px ;
+}
+
+.inputsDiv{
+    font-weight:bold;
+    text-align: center;
+    position: relative;
+}
+
+#username , input{
+    width: 90%;
+    height: 35px;
+
+}
+label{
+    position: absolute;
+    left: 22px;
+    font-size: 1.15rem;
+}
+input{
+    margin-top: 5px;
+    border-radius: 10px;
+    border: black 1px solid;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+
+#checkboxInput{
+    margin-top: 20px;
+    position: relative;
+}
+p{
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 55px;
+    
+}
+
+#checkbox{
+    width: 20px;
+    height: 20px;
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    position: absolute;
+    left: 30px;
+}
+.submitDiv{
+    margin-top: 50px;
+    text-align: center;
+}
+#submit{
+background-color:#AEDBDA;
+width: 40%;
+height: 45px;
+font-family: 'Raleway', sans-serif;
+font-weight: bold;
+font-size: 1.1rem;
+cursor: pointer;
+}
+#submit:hover{
+    background-color: #A4CBD8;
+}
+
+#errorMessage{
+    color: rgb(247, 0, 0);
+    padding-top: 12px;
+}
+
+.input:focus {
+    outline: none !important;
+    /* border:1px solid red; */
+    box-shadow: 0 0 10px #719ECE;
+}
+
+.inputsClass {
+    outline: none !important;
+    border:1px solid red;
+}
+
+.paragraph001{
+    font-size: 0.7rem;
+    margin-left: 250px;
+    color: red;
+    margin-top: 9px;
+}
+.checkBoxClass{
+    color: red;
+}
+
+
+#fixDiv{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    margin: 0px;
+    position: absolute;
+    bottom: -10px;
+}
+
+
+
+.already{
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}

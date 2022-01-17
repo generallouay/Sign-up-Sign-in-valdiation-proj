@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Raleway:wght@100&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <form action="#" id="myForm">
+      <div id="btn-div">
+        <button id="btn">click</button>
+
+        <div class="container">
+          <div class="welcome">
+            <h1>Welcome</h1>
+            <h3>Sign up </h3>
+          </div>
+          <div class="inputsDiv">
+              <label for="username" >username</label><p class="paragraph001"></p><br>
+              <input class="input redStuff" type="text" name="username" id="username" maxlength="20" > <!-- 1--> 
+          </div>
+          <div class="inputsDiv">
+              <label for="email" >email</label> <p class="paragraph001"></p><br>
+              <input class="input redStuff" type="email" name="email" id="email" maxlength="40"> <!-- 1--> 
+          </div>
+          <div class="inputsDiv">
+              <label for="password" >password</label> <p class="paragraph001"></p><br>
+              <input class="input redStuff" type="password" name="password" id="password" maxlength="40"> <!-- 1--> 
+          </div>
+          <div class="inputsDiv">
+              <label for="confirm password" >confirm password</label><p class="paragraph001"></p> <br>
+              <input class="input redStuff" type="password" name="confirm password" id="confirm-password" maxlength="40"> <!-- 1--> 
+          </div>
+          <div class="inputsDiv">
+              <label for="age" >age</label><p class="paragraph001"></p><br>
+              <input class="input redStuff" type="text" name="age" id="age" maxlength="2"  oninput="this.value=this.value.replace(/[^0-9]/g,'');" > 
+          </div>
+          <div class="inputsDiv" id="checkboxInput">
+              <input type="checkbox" name="checkbox" id="checkbox">  <!-- 1--> 
+              <p>i agree to the <a href="#">terms</a> and <a href="#">conditions</a></p>
+
+          </div>
+          
+          <div class="submitDiv">
+              <input type="submit" name="submit" id="submit">  <!-- 1--> 
+          </div>
+          <div class="inputsDiv">
+              <h4 id="errorMessage"></h4>
+          </div>
+          <div  id="fixDiv">
+            <h4 class="already">Already have an account ? <a href="login.html" id="myAnchorTag">Log in</a></h4>
+          </div>
+        </div>
+      </div>
+    </form>
+
+    <section></section>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
